@@ -1,0 +1,144 @@
+.mac-hero{
+   display: flex;
+   justify-content: space-between;
+   gap: 15px;
+   padding: 5px 100px;
+   background-color: #FFE7D6;
+   border-radius: 10px;
+   margin-top: 30px;
+}
+.mac-hero .mac-texts{
+   padding: 80px 0;
+}
+.mac-hero .mac-texts .mac-price{
+   border: none;
+   background-color: #2DA5F3;
+   color: white;
+   padding: 5px;
+   font-size: 14px;
+   font-weight: 600;
+}
+.mac-hero .mac-texts .mac-name{
+   font-size: 48px;
+   font-weight: 600;
+   color: #191C1F;
+   margin: 10px 0;
+}
+.mac-hero .mac-texts .mac-info{
+   font-size: 24px;
+   font-weight: 400;
+   color: #191C1F;
+   width: 424px;
+   margin-bottom: 30px;
+}
+.hero-product{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 25px;
+   margin-top: 30px;
+}
+.hero-product .hero-product-card{
+   width: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+   padding: 15px;
+   border: 1px solid #E4E7E9;
+}
+.hero-product .hero-product-card .hero-product-texts .card-info{
+   font-size: 14px;
+   font-weight: 400;
+   color: #191C1F;
+   margin-bottom: 8px;
+}
+.hero-product .hero-product-card .hero-product-texts .card-price{
+   font-size: 14px;
+   font-weight: 600;
+   color: #2DA5F3;
+
+}
+.latest-news{
+   background-color: #F2F4F5;
+   padding: 50px;
+   margin-top: 50px;
+}
+.latest-news .latest-text{
+   color: #191C1F;
+   font-size: 32px;
+   font-weight: 600;
+   margin-bottom: 30px;
+   text-align: center;
+}
+.latest-news .latest-cards{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+.latest-news .latest-cards .latest-card{
+   width: 424px;
+   padding: 32px;
+   background-color: white;
+
+}
+.latest-news .latest-cards .latest-card div img{
+   margin-top: 15px;
+   margin-bottom:15px;
+}
+.latest-news .latest-cards .latest-card .latest-card-maintx{
+   color: #191C1F;
+   font-size: 18px;
+   font-weight: 500;
+   margin-bottom: 15px;
+}
+.latest-news .latest-cards .latest-card .latest-card-info{
+   color: #77878F;
+   font-size: 16px;
+   font-weight: 400;
+   margin-bottom: 15px;
+}
+.latest-news .latest-cards .latest-card .latest-btn{
+  padding: 7px 24px;
+  border: none;
+  background-color: #FA8232;
+  color: #FA8232;
+  background-color: white;
+  font-weight: bold;
+  border:2px solid #FFE7D6;
+}
+.subscribe{
+   background-color: #1B6392;
+   color: white;
+   text-align: center;
+   padding: 72px 0;
+}
+.subscribe-text-1{
+   font-size: 32px;
+   font-weight: 600;
+   margin-bottom: 20px;
+}
+.subscribe-info{
+   font-size: 16px;
+   font-weight: 400;
+   color: #FFFFFF;
+   width: 536px;
+   margin: auto;
+   margin-bottom: 20px;
+}
+.subscribe-email{
+   background-color: white;
+   width: 624px;
+   padding: 12px;
+   margin: auto;
+   margin-bottom: 30px;
+}
+.subscribe-email input{
+   border: none;
+   outline: none;
+   text-indent: 10px;
+   font-size: 20px;
+   width: 450px;
+}

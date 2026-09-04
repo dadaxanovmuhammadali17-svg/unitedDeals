@@ -1,0 +1,34 @@
+.table-basket{
+    margin: auto;
+}
+.baskets  .card {
+    width: 800px;
+    padding: 20px;
+    color: black;
+    border-radius: 15px;
+}
+.table-basket td{
+    padding: 5px 20px;
+    
+}
+.tr-main th{
+    font-size: 26px;
+    
+    
+}
+.baskets .card .name{
+    font-size: 22px;
+    color: black;
+}
+.baskets .card .price,.card .info{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.baskets .card .basket, .card .like{
+    padding: 10px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}

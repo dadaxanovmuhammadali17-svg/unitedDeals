@@ -1,0 +1,39 @@
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 50px;
+}
+.products .card{
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #E4E7E9;
+}
+.products .card .img{
+    display: block;
+    margin: auto;
+}
+
+.products .card b{
+    font-size: 14px;
+    color: #2DA5F3;
+}
+.products .card .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.products .card .buttons button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border: solid 2px black;
+    border-radius: 15px;
+    cursor: pointer;
+}   
+.shopping{
+    width: 200px;
+}

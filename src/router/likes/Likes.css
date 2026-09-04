@@ -1,0 +1,22 @@
+.likes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 50px;
+}
+.likes .card{
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #E4E7E9;
+}
+.likes .card .img{
+    display: block;
+    margin: auto;
+}
+
+.likes .card b{
+    font-size: 14px;
+    color: #2DA5F3;
+}
