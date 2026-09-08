@@ -5,6 +5,7 @@ import Home from './router/home/Home'
 import Footer from './components/footer/Footer'
 import Likes from './router/likes/Likes'
 import Basket from './router/basket/Basket'
+import SingleRoute from './router/singleRoute/SingleRoute'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/likes' element={<Likes/>} />
         <Route path='/basket' element={<Basket/>} />
+        <Route path='/product/:id' element={<SingleRoute/>} />
       </Routes>
       <Footer/>
     </div>

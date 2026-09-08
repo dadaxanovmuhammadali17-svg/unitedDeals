@@ -6,11 +6,17 @@
     gap: 100px;
     margin-top: 50px;
 }
+.products .link{
+    text-decoration: none;
+    color: black;
+}
 .products .card{
     width: 250px;
     padding: 15px;
     border: 1px solid #E4E7E9;
+    text-decoration: none;
 }
+
 .products .card .img{
     display: block;
     margin: auto;

@@ -1,0 +1,41 @@
+.singleroute{
+   display: flex;
+   justify-content: center;
+  gap: 30px;
+   margin-top: 50px;
+
+}
+.singleroute .image{
+   border: 1px solid #E4E7E9;
+}
+.singleroute .image img{
+   width: 600px;
+   height: 600px;
+}
+.singleroute .rating1{
+   width: 40px;
+}
+.singleroute .title{
+   font-size: 60px;
+}
+.singleroute  b{
+    font-size: 56px;
+    color: #2DA5F3;
+}
+.singleroute .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.singleroute .buttons button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border: solid 2px black;
+    border-radius: 15px;
+    cursor: pointer;
+}   
+.shopping{
+    width: 200px;
+}

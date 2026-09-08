@@ -21,7 +21,7 @@ function Basket(){
                     return(
                         <tr className="card" key={item.id}>
                             <td className="name"><img src={item.image} alt="" /></td>
-                            <td className="price">{item.price}</td>
+                            <td className="price">₹{item.price}</td>
                             <td className="info">{item.title}</td>
                         </tr>
                     )
