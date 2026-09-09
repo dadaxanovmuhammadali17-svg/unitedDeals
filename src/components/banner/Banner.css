@@ -91,6 +91,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: 25px;
 }
 .banner2 .banner2-card{
@@ -110,4 +112,30 @@
   color: #5F6C72;
   font-size: 14px;
   font-weight: 400;
+}
+
+@media (max-width:480px){
+  .banner-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .banner-main .banner-main-big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 5px;
+  }
+  .google-phone-card-banner,.airpods-card-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+  }
 }

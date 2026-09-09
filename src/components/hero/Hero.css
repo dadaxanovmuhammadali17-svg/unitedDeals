@@ -142,3 +142,90 @@
    font-size: 20px;
    width: 450px;
 }
+
+@media (max-width:768px){
+   .mac-hero{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: center;
+   }
+   .mac-hero .mac-img{
+      display: none;
+   }
+   .latest-cards{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      
+   }
+   .latest-card{
+      width: 400px;
+      padding: 25px;
+      margin: 10px;
+   }
+   .latest-card div{
+      padding: 15px;
+   }
+   .hero-product-card{
+      padding: 5px;
+      width: 300px;
+      margin: auto;
+   }
+   .subscribe{
+      text-align: center;
+      padding: 15px;
+   }
+   .subscribe-info{
+      width: 300px;
+   }
+   .subscribe-email input{
+      width: 100px;
+   }
+}
+@media (max-width:480){
+   .mac-hero{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: center;
+   }
+   .mac-hero .mac-img{
+      display: none;
+   }
+   .latest-cards{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      
+   }
+   .latest-card{
+      width: 400px;
+      padding: 25px;
+      margin: 10px;
+   }
+   .latest-card div{
+      padding: 15px;
+   }
+   .hero-product-card{
+      padding: 5px;
+      width: 300px;
+      margin: auto;
+   }
+   .subscribe{
+      text-align: center;
+      padding: 15px;
+   }
+   .subscribe-info{
+      width: 300px;
+   }
+   .subscribe-email input{
+      width: 100px;
+   }
+}

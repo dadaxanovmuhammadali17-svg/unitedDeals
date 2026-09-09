@@ -22,7 +22,7 @@ function Hero(){
               <p className='mac-info'>Apple M1 Max Chip. 32GB Unified Memory, 1TB SSD Storage</p>
               <button className='banner-btn'>SHOP NOW  <FaArrowRight/></button>
             </div>
-            <img src={macbook} alt="" />
+            <img className='mac-img' src={macbook} alt="" />
         </div>
         <div className='hero-product'>
           {
