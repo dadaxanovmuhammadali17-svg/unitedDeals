@@ -27,7 +27,7 @@ function SingleRoute(){
             <div className='image'>
                <img src={data.image} alt="" />
             </div>
-            <div>
+            <div className='sin-texts'>
                <p className='rating1'>⭐️⭐️⭐️⭐️⭐️(412)</p>             
                <p className='title'>{data.title}</p>                
                <b>₹{data.price}</b>

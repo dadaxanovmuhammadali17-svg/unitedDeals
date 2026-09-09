@@ -32,3 +32,22 @@
     border-radius: 15px;
     font-size: 20px;
 }
+
+@media (max-width:768px){
+    .baskets .card{
+        width: 400px;
+
+    }
+    .baskets .name img{
+        width: 100px;
+    }
+}
+@media (max-width:480px){
+    .baskets .card{
+        width: 400px;
+
+    }
+    .baskets .name img{
+        width: 100px;
+    }
+}

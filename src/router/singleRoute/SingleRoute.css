@@ -39,3 +39,38 @@
 .shopping{
     width: 200px;
 }
+
+@media (max-width:768px){
+   .singleroute{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+   }
+   .image img{
+      max-width: 350px;
+      max-height: 350px;
+   }
+   
+   .sin-texts{
+      padding: 10px;
+   }
+}
+@media (max-width:480px){
+   .singleroute{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+   }
+   .image img{
+      max-width: 350px;
+      max-height: 350px;
+   }
+   
+   .sin-texts{
+      padding: 10px;
+   }
+}
