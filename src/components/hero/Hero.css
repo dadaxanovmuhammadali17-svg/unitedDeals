@@ -182,8 +182,11 @@
    .subscribe-info{
       width: 300px;
    }
-   .subscribe-email input{
-      width: 100px;
+   .subscribe-email{
+      display: none;
+   }
+   .sub-logos{
+      width: 400px;
    }
 }
 @media (max-width:480){
@@ -225,7 +228,10 @@
    .subscribe-info{
       width: 300px;
    }
-   .subscribe-email input{
-      width: 100px;
+   .subscribe-email{
+      display: none;
+   }
+   .sub-logos{
+      width: 400px;
    }
 }

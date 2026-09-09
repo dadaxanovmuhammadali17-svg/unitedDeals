@@ -81,7 +81,7 @@ function Hero(){
               <input type="text" placeholder='Email address' />
               <button className='banner-btn'>SUBSCRIBE <FaArrowRight/></button>
             </div>
-            <img src={comLogos} alt="" />
+            <img className='sub-logos' src={comLogos} alt="" />
         </div>
     </div>
   )
