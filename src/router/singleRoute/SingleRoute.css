@@ -56,6 +56,12 @@
    .sin-texts{
       padding: 10px;
    }
+   .sin-texts .title{
+      font-size: 24px;
+   }
+   .sin-texts b{
+      font-size: 26px;
+   }
 }
 @media (max-width:480px){
    .singleroute{
@@ -72,5 +78,11 @@
    
    .sin-texts{
       padding: 10px;
+   }
+   .sin-texts .title{
+      font-size: 24px;
+   }
+   .sin-texts b{
+      font-size: 26px;
    }
 }

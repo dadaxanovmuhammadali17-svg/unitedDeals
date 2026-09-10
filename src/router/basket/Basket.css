@@ -41,6 +41,9 @@
     .baskets .name img{
         width: 100px;
     }
+    .baskets .info{
+        font-size: 16px;
+    }
 }
 @media (max-width:480px){
     .baskets .card{
@@ -49,5 +52,8 @@
     }
     .baskets .name img{
         width: 100px;
+    }
+    .baskets .info{
+        font-size: 12px;
     }
 }
