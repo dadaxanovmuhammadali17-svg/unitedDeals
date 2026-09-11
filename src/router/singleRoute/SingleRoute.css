@@ -6,11 +6,17 @@
 
 }
 .singleroute .image{
-   border: 1px solid #E4E7E9;
+   
 }
-.singleroute .image img{
+.singleroute .image .img1{
    width: 600px;
    height: 600px;
+   border: 1px solid #E4E7E9;
+}
+.singleroute .images img{
+   width: 80px;
+   border: 1px solid #E4E7E9;
+   margin-left: 7px;
 }
 .singleroute .rating1{
    width: 40px;

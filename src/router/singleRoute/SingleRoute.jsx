@@ -25,7 +25,13 @@ function SingleRoute(){
         <div className='container'>
          <div className='singleroute'>
             <div className='image'>
-               <img src={data.image} alt="" />
+               <img className='img1' src={data.image} alt="" />
+               <div className='images'>
+                  <img src={data.image} alt="" />
+                  <img src={data.image} alt="" />
+                  <img src={data.image} alt="" />
+                  <img src={data.image} alt="" />
+               </div>
             </div>
             <div className='sin-texts'>
                <p className='rating1'>⭐️⭐️⭐️⭐️⭐️(412)</p>             

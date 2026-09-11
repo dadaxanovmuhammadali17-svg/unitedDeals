@@ -1,59 +1,233 @@
-.table-basket{
-    margin: auto;
+.mycart {
+    font-size: 60px;
+    font-weight: 800;
+    color: #000;
 }
-.baskets  .card {
+
+.lets {
+    font-size: 30px;
+    font-weight: 400;
+    color: #00000099;
+}
+
+.table-basket {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.baskets .card {
     width: 800px;
-    padding: 20px;
     color: black;
     border-radius: 15px;
 }
-.table-basket td{
+
+.table-basket td {
     padding: 5px 20px;
-    
 }
-.tr-main th{
-    font-size: 26px;
-    
-    
-}
-.baskets .card .name{
+
+.baskets .card .info {
     font-size: 22px;
     color: black;
 }
-.baskets .card .price,.card .info{
+
+.baskets .card .price {
     font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: #555;
 }
-.baskets .card .basket, .card .like{
-    padding: 10px;
-    margin-left: 15px;
+
+.card .delete {
+    font-size: 24px;
+    color: #00000099;
+    cursor: pointer;
+}
+
+.card .name img {
+    width: 100px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.counter {
+    width: 155px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border: 1px solid #00000099;
+    border-radius: 6px;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.counter button {
     border: none;
-    border-radius: 15px;
-    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (max-width:768px){
-    .baskets .card{
-        width: 400px;
+.minus {
+    font-size: 32px;
+    color: #00000099;
+}
 
+.plus {
+    font-size: 34px;
+    color: #555;
+}
+
+.count {
+    font-size: 20px;
+    color: #222;
+    min-width: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    .baskets {
+        width: 100%;
+        padding: 0 20px;
+        overflow: hidden;
     }
-    .baskets .name img{
-        width: 100px;
+
+    .mycart {
+        font-size: 42px;
+        margin-bottom: 8px;
     }
-    .baskets .info{
+
+    .lets {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .table-basket {
+        width: 100%;
+        min-width: 750px;
+        margin: 0;
+    }
+
+    .table-basket td {
+        padding: 8px 12px;
+    }
+
+    .baskets .card {
+        width: auto;
+    }
+
+    .baskets .card .info {
+        font-size: 17px;
+        min-width: 180px;
+    }
+
+    .baskets .card .price {
+        font-size: 17px;
+    }
+
+    .card .name img {
+        width: 80px;
+        height: 105px;
+    }
+
+    .counter {
+        width: 130px;
+        height: 50px;
+        margin-top: 25px;
+    }
+
+    .minus {
+        font-size: 27px;
+    }
+
+    .plus {
+        font-size: 29px;
+    }
+
+    .count {
+        font-size: 18px;
+    }
+
+    .card .delete {
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .baskets {
+        width: 100%;
+        padding: 0 15px;
+        overflow-x: auto;
+    }
+
+    .mycart {
+        font-size: 34px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .lets {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .table-basket {
+        min-width: 700px;
+        width: 700px;
+        margin: 0;
+    }
+
+    .table-basket td {
+        padding: 6px 10px;
+    }
+
+    .baskets .card {
+        width: auto;
+    }
+
+    .baskets .card .info {
+        font-size: 15px;
+        min-width: 170px;
+    }
+
+    .baskets .card .price {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    .card .name img {
+        width: 70px;
+        height: 90px;
+    }
+
+    .counter {
+        width: 115px;
+        height: 45px;
+        margin-top: 20px;
+    }
+
+    .minus {
+        font-size: 24px;
+    }
+
+    .plus {
+        font-size: 26px;
+    }
+
+    .count {
         font-size: 16px;
     }
-}
-@media (max-width:480px){
-    .baskets .card{
-        width: 400px;
 
-    }
-    .baskets .name img{
-        width: 100px;
-    }
-    .baskets .info{
-        font-size: 12px;
+    .card .delete {
+        font-size: 20px;
     }
 }
